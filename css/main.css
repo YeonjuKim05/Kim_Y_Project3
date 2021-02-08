@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+#container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*------------------------------------------home------------------------------------*/
+
+#logo {
+  text-align: center;
+  margin: 25px 0;
+  width: 236px;
+  height: 127px;
+  background-color: #b3b3b3;
+}
+#mainNav {
+  margin: 25px 25px;
+  width: 800px;
+  height: 31px;
+}
+
+#mainNav ul li {
+  list-style: none;
+  float: left;
+  line-height: 127px;
+
+  padding-right: 42px;
+}
+#mainNav .navlink {
+  justify-content: space-around;
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+  display: block;
+
+  font-size: 12px;
+}
+#mainHeader {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+
+#mainBanner {
+  height: 550px;
+  text-align: left;
+  margin: 20% 0;
+}
+
+#ourfavorites {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 497px;
+  margin-bottom: 107px;
+  background-color: #b3b3b3;
+}
+#favoriteCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 419px;
+  background-color: #b3b3b3;
+}
+#portfolioCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#followus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#followus div {
+  height: 234px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 216px;
+  background-color: #b3b3b3;
+}
+#footerCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#news {
+  width: 100%;
+  margin-bottom: 107px;
+}
+.newsCon {
+  display: inline-block;
+  height: 705px;
+}
+
+.newsBox {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.newsBox:last-child {
+  margin-right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+h2 {
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.3rem;
+}
+
+/* button */
+
+.shopdirect {
+  margin-top: 42px;
+  width: 276px;
+  height: 50px;
+  display: inline;
+  text-transform: uppercase;
+
+  background-color: #272727;
+  border: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------------about------------------------------------*/
+
+#aboutus {
+  width: 100%;
+  text-align: center;
+  height: 350px;
+  margin-top: 130px;
+}
+
+#aboutusIntro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#aboutusCon {
+  width: 530px;
+  height: 372px;
+  margin: auto;
+}
+
+#ourstory {
+  margin-top: 67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#ourstoryText_right {
+  width: 597.5px;
+  height: 457px;
+  text-align: center;
+}
+
+#ourstoryText {
+  background-color: #edc462;
+  width: 597.5px;
+  height: 457px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/*------------------------------------------contact us------------------------------------*/
+
+#letstalk {
+  width: 100%;
+  text-align: center;
+  height: 350px;
+  margin-top: 130px;
+}
+
+.form-elements {
+  align-items: center;
+  width: 100%;
+  position: relative;
+  display: block;
+  margin-bottom: 60px;
+}
+
+.form-elements span {
+  font-size: 15px;
+  color: #272727;
+  position: absolute;
+  top: 15px;
+}
+
+.form-elements span.border {
+  height: 1px;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+textarea.form-effect {
+  padding-top: 10px;
+  padding-bottom: 150px;
+}
+
+button {
+  border: none;
+  width: 128px;
+  height: 51px;
+  background-color: #edc462;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.form-effect {
+  border: none;
+  border-bottom: 2px solid #b3b3b3;
+  display: block;
+  width: 100%;
+  height: 43px;
+  font-size: 15px;
+  background: none;
+}
+
+.send-contact {
+  margin-top: 42px;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  background-color: #b3b3b3;
+  border: none;
+}
+
+div.inner {
+  display: inline-block;
+  width: 70%;
+}
+
+#Locator {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 532px;
+  background-color: #b3b3b3;
+}
+
+#LocatorCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
